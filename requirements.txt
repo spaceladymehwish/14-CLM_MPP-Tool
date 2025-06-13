@@ -1,6 +1,5 @@
 streamlit
 torch
-rdkit-pypi
-pandas
 numpy
-
+pandas
+rdkit-pypi

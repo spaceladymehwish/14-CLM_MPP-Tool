@@ -88,7 +88,7 @@ if smiles_input:
             prob = model(x_tensor).item()
             pred = 1 if prob >= 0.5 else 0
 
-        st.markdown(f"### Prediction: {'🟢 Active' if pred == 1 else '🔴 Inactive'}")
+        st.markdown(f"### Prediction: {'Active' if pred == 1 else 'Inactive'}")
         st.markdown(f"**Confidence (probability): {prob:.3f}**")
 
     else:
