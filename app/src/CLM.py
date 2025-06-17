@@ -32,7 +32,7 @@ descriptors = [
 descriptor_calc = MoleculeDescriptors.MolecularDescriptorCalculator(descriptors)
 input_dim = 140
 model = ImprovedMolecularNN(input_dim)
-model_dir = "/assets"
+model_dir = "src/assets/"
 model_file_name = "2D_rdki_best_nn_model.pth"
 model_file_path = os.path.join(model_dir, model_file_name)
 model = torch.load(model_file_path, map_location='cpu',
