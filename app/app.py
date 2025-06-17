@@ -4,7 +4,10 @@ import streamlit as st
 from rdkit import Chem
 from rdkit.Chem import Draw
 import torch
-from src.CLM import descriptor_calc, model
+
+sys.path.append(os.path.join(os.path.dirname(__file__), "src"))
+
+from CLM import descriptor_calc, model
 
 st.title("Real-Time Molecular Property Predictor")
 smiles_input = st.text_input("Enter a SMILES string:")
