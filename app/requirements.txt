@@ -1,4 +1,4 @@
+rdkit
 streamlit
 torch
-numpy
 pandas

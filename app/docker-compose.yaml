@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  molecular-app:
+    build:
+      context: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
