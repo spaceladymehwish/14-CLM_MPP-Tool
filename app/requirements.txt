@@ -1,5 +1,0 @@
-rdkit
-streamlit
-torch==2.2.2+cpu
-pandas
--f https://download.pytorch.org/whl/torch_stable.html
