@@ -67,7 +67,7 @@ class ImprovedMolecularNN(nn.Module):
 # Load trained model
 input_dim = 140
 model = ImprovedMolecularNN(input_dim)
-model = torch.load("2D rdki best nn_model.pth", map_location='cpu', weights_only=False)
+model = torch.load("2D_rdkit_best_nn_model_full.pth", map_location='cpu', weights_only=False)
 model.eval()  # Set model to evaluation mode
 
 # Streamlit UI
