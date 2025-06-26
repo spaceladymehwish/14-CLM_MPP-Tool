@@ -1,4 +1,4 @@
-Molecular Property Predictor: 2D Descriptor-Based Deep Learning Classifier for Antibiotics
+# Molecular Property Predictor: Deep Learning Classifier for Antibiotics
 The molecular property predictor is a deep learning model built to classify antibiotic molecules as either active or inactive, using features derived from their 2D chemical structure. It plays a critical role in virtual screening by enabling rapid and automated evaluation of candidate molecules.
 
 Feature Computation: 2D RDKit Descriptors
